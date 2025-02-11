@@ -1,8 +1,8 @@
-package com.example.country.pays
+package com.example.country
 
 data class Country(
     val name: String,
     val capital: String,
     val code: String,
-    val imageRes: Int // Resource ID for the country's flag
+    val imageRes: Int // ID de l'image du drapeau
 )
